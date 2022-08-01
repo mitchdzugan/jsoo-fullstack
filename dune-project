@@ -15,8 +15,8 @@
 
 (package
  (name jsoo-fullstack)
- (synopsis "jsoo react frontend with jsoo express backend and shared business logic")
- (description "jsoo react frontend with jsoo express backend and shared business logic")
+ (synopsis "Template for fullstack jsoo project.")
+ (description "A jsoo react frontend with jsoo express backend and shared business logic.")
  (depends
   ;; General system dependencies
   (dune (>= 2))
