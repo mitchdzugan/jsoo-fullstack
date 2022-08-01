@@ -1,0 +1,16 @@
+(executables
+ (names main)
+ (modes js)
+ (libraries promise_jsoo js_of_ocaml jsoo-react.lib)
+ (preprocess
+  (pps ppx_jsobject_conv js_of_ocaml-ppx jsoo-react.ppx)))
+
+(rule
+ (targets express.ml)
+ (deps express.mli)
+ (action
+  (run %{bin:gen_js_api} %{deps})))
+
+(alias
+ (name server)
+ (deps main.js))

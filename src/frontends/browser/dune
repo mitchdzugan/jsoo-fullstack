@@ -1,0 +1,11 @@
+(executables
+ (names main)
+ (modes js)
+ (libraries shared promise_jsoo js_of_ocaml jsoo-react.lib)
+ (js_of_ocaml (javascript_files react-requires.js))
+ (preprocess
+  (pps ppx_jsobject_conv js_of_ocaml-ppx jsoo-react.ppx)))
+
+(alias
+ (name browser)
+ (deps main.js))
