@@ -2,7 +2,7 @@
 opam-version: "2.0"
 synopsis: "Template for fullstack jsoo project."
 description:
-  "jsoo react frontend with jsoo express backend and shared business logic"
+  "A jsoo react frontend with jsoo express backend and shared business logic."
 maintainer: ["dz"]
 authors: ["dz"]
 license: "MIT"
