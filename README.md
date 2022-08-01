@@ -5,8 +5,8 @@ You will need to install both [Opam](https://opam.ocaml.org/doc/Install.html) an
 To get the project running locally:
 
 ```bash
-git clone https://github.com/jchavarri/jsoo-react-realworld-example-app.git
-cd jsoo-react-realworld-example-app
+git clone https://github.com/mitchdzugan/jsoo-fullstack.git
+cd jsoo-fullstack
 yarn install # install JavaScript dependencies
 make create-switch # create Opam local switch
 make init # install OCaml dependencies
